@@ -1,0 +1,35 @@
+<!--GIVE DOCTYPE-->
+<!DOCTYPE html>
+
+<!--CREATE HTML TAG-->
+<html>
+
+    <!--CREATE HEAD TAG-->
+    <head>
+
+        <!--GIVE PATH OF THE LIBRARY-->
+        <script src = "https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+
+    <!--CREATE BODY TAG-->
+    <body>
+
+        <!--CREATE A SCENE-->
+        <a-scene background = "color:#000000">
+
+            <!--CREATE SOME FIGURES-->
+            <a-plane position = "0 0 0 " rotation = "-90 0 0" width = "20" height = "20" color = 'cyan' shadow></a-plane>
+            <a-box position = "1 0.5 -3" color = "pink" shadow></a-box>
+            
+            <a-cylinder position = "0 0.5 -5" radius = "1" height = "2.25" color = "violet" shadow></a-cylinder>
+            <a-ring position = "2.25 0.75 -4" color = "orange" radius-inner = "0.25" radius-outer = "0.75" shadow></a-ring>
+            <a-cone position = "1 1.5 -3" color = "#1d2d3d" radius-top = "0" radius-bottom = "0.5" shadow></a-cone>
+            <a-octahedron position = "-1.5 0.87 -4" radius = "1" color = "red" shadow></a-octahedron>
+            <a-sphere position = "0 2.5 -5" color = "green" shadow></a-sphere>
+            <a-box position = "-2.5 0.5 -3" color = "grey" length = "10" height = "0.5"  shadow></a-box>
+            <a-ring position = "-2.5 1.25 -3" color = "brown" radius-inner = "0.15" radius-outer = "0.5" shadow></a-ring>
+            <a-sky color="#ECECEC"></a-sky>
+
+        </a-scene>
+    </body>
+</html>
